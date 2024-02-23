@@ -89,7 +89,7 @@ Make sure the default Compute Engine [service account][sa] has sufficient permis
      --member=serviceAccount:$(gcloud projects describe $PROJECT_ID \
      --format="value(projectNumber)")-compute@developer.gserviceaccount.com \
      --role="roles/storage.objectViewer"
-        ```
+     ```
 
 ## Storage
 
